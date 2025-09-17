@@ -1,6 +1,7 @@
 import pygame
 import consts
 import game
+import time
 
 pygame.init()
 screen = pygame.display.set_mode((consts.WIDTH, consts.HIGHT))
@@ -63,5 +64,5 @@ def add_poki(pokimon_list):
     :return: //
     """
     screen.blit(pokimon_list[1], pokimon_list[0])
-    print(pokimon_list[0])
+    time.sleep(1)
     pygame.display.update()
