@@ -16,11 +16,11 @@ BUTTON_FONT = pygame.font.SysFont("aharoni", 18)
 BUTTON_TXT = BUTTON_FONT.render('START', 1, "white")
 
 POKI_DICT = {
-    0: [(180, 546) , pygame.image.load("characterone.png")],
-1:[() ,pygame.image.load("charactertwo-removebg-preview.png")],
-2: [(), pygame.image.load("chararcterthree-removebg-preview.png")],
-3: [() ,pygame.image.load("characterfour-removebg-preview.png")],
-4: [(), pygame.image.load("characterfive-removebg-preview.png")],
-5: [(), pygame.image.load("charactersix-removebg-preview.png")],
-6: [(), pygame.image.load("characterseven-removebg-preview.png")]
+    0: [(180, 546) , pygame.image.load("characterseven-removebg-preview.png")],
+1:[(100,440) ,pygame.image.load("charactertwo-removebg-preview.png")],
+2: [(115,345), pygame.image.load("chararcterthree-removebg-preview.png")],
+3: [(210,300) ,pygame.image.load("characterfour-removebg-preview.png")],
+4: [(313,180), pygame.image.load("characterfive-removebg-preview.png")],
+5: [(186,120), pygame.image.load("charactersix-removebg-preview.png")],
+6: [(180,40), pygame.image.load("characterone.png")]
 }
